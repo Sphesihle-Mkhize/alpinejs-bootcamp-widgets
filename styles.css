@@ -1,0 +1,68 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #db6b6b;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container styling */
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f1beb5;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* Widget styling */
+.widget {
+    background-color: #fc8787;
+    border: 1px solid #ac8787;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(68, 58, 58, 0.1);
+    text-align: left;
+}
+
+.widget h2 {
+    margin-top: 0;
+    color: #9dd0fa;
+}
+
+input[type="text"], input[type="number"], select {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #e98556;
+    color: #d8b9f1;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #328cec;
+}
+
+p {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #d8e8e9;
+}
+
+/* Specific label styling for radio buttons */
+label {
+    display: block;
+    margin-bottom: 5px;
+}
